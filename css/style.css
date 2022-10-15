@@ -76,8 +76,8 @@ p {
 }
 
 .bg-primary {
-  background: #333;
-  color: #f7c08a;
+  background: #f7c08a;
+  color: #333;
 }
 
 h2 span {
@@ -163,6 +163,7 @@ h2 span {
   text-align: center;
   padding: 50px, 30px;
   overflow: hidden;
+  margin-top: 40px;
 }
 
 #home-info .info-content p {
@@ -174,5 +175,15 @@ h2 span {
 .box {
   float: left;
   width: 33.3%;
-  padding: 50px;
+  padding: 25px;
+  text-align: center;
+  height: 200px;
+}
+
+.box i {
+  /*icon*/
+  margin-bottom: 10px;
+}
+
+#box2 {
 }
